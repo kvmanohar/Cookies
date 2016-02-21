@@ -13,8 +13,10 @@
         android:src="@drawable/before_cookie"
         android:scaleType="centerCrop"
         android:layout_weight="1"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:contentDescription="Cookie image" />
     <TextView
+        android:id="@+id/textDisplayMessage"
         android:layout_width="wrap_content"
         android:text="I'm so hungry"
         android:layout_margin="10dp"
@@ -29,5 +31,6 @@
         android:layout_margin="10dp"
         android:text="EAT COOKIE"
         android:layout_weight="0"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:onClick="changeImage"/>
 </LinearLayout>
